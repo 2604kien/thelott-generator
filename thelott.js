@@ -13,6 +13,6 @@ function getLottNumber(n){
 function getPowerBall(){
     return Math.ceil(Math.random()*20);
 }
-console.log("The Winning numbers is: ", getLottNumber(2));
+console.log("The Winning numbers is: ", getLottNumber(7));
 console.log("The P'ball is: ", getPowerBall());
 
